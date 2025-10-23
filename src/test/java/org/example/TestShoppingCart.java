@@ -7,7 +7,7 @@ import java.util.ResourceBundle;
 import static org.junit.jupiter.api.Assertions.*;
 
 public class TestShoppingCart {
-    ResourceBundle messages = ResourceBundle.getBundle("messages");
+    ResourceBundle messages = ResourceBundle.getBundle("Messages");
     ShoppingCart shoppingCart = new ShoppingCart(messages);
 
     @Test

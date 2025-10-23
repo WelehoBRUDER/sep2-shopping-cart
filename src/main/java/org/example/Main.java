@@ -13,7 +13,7 @@ public class Main {
         System.out.print("Input country: ");
         String country = sc.nextLine();
         Locale locale = new Locale(language, country);
-        ResourceBundle messages = ResourceBundle.getBundle("messages", locale);
+        ResourceBundle messages = ResourceBundle.getBundle("Messages", locale);
 
         // Create instance of shopping cart
         ShoppingCart cart = new ShoppingCart(messages);
